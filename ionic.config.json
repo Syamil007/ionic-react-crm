@@ -1,0 +1,7 @@
+{
+  "name": "ionic-fincrm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
