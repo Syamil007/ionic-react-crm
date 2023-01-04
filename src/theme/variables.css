@@ -1,6 +1,193 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+.hide-scroll{
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+.tool{
+  /* height: 200px !important; */
+}
+
+ion-toolbar{
+  --background:rgb(27, 27, 110);
+  --color: white;
+  height: 100%;
+  display: flex;
+}
+.ioncontent{
+  background-color: #28ba62;
+  height: 100%;
+}
+/* row1 */
+.row-1{
+  
+  height: 18rem;
+  display: flex;
+  margin-top: 1rem;
+}
+/* 1 */
+.row-1-col-1{
+  /* background-color: #3171e0; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30rem;
+}
+.row-1-col-1-up{
+  
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row-1-col-1-down{
+  /* background-color: yellowgreen; */
+  height: 8rem;
+  padding-left: 1rem;
+}
+.row-1-col-1-down-label{
+  font-size: larger;
+}
+.row-1-col-1-down-notes{
+  /* background-color: #428cff; */
+  height: 73px;
+
+  font-size: larger;
+
+  display: flex;
+  align-items: flex-end;
+
+}
+/* 2 */
+.row-1-col-2{
+  border:1px solid black;
+  border-radius: 4px;
+  /* background-color: #428cff; */
+  width: 33rem;
+  margin-left: 1rem;
+}
+.bold{
+  font-weight: 600;
+}
+.info{
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+/* 3 */
+.row-1-col-3{
+  border:1px solid black;
+  border-radius: 4px;
+  /* background-color: #3bd100; */
+  width: 33rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.mb{
+  /* background-color: #36abe0; */
+  height: 388px;
+  display: flex;
+ 
+}
+.mb-1{
+  /* background-color: #36abe0; */
+  width: calc(496px - 16px - 16px);
+
+  /* border:1px solid black;
+  border-radius: 4px; */
+
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.mb-2{
+  /* background-color: #36abe0; */
+  margin-top: 16px;
+  height: calc(100% - 32px);
+  width: 1072px;
+
+  /* border:1px solid black;
+  border-radius: 4px; */
+}
+.mbr{
+  /* background-color: #29c467; */
+  height: 100%;
+  width: 100%;
+}
+.router{
+  /* background-color: #36abe0; */
+  height: 100%;
+  width: 100%;
+  
+}
+#nav{
+  height: 13% ;
+}
+.select{
+  
+  background-color: rgb(27, 27, 110) !important;
+  color: snow !important;
+
+  
+}
+.content{
+  height: 100% !important;
+
+
+  border:1px solid black;
+  border-radius: 4px;
+}
+.b{
+  margin-right: 16px;
+ 
+
+  width: 7rem;
+  height: 100%;
+
+  border:1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+.box1{
+  border:1px solid black;
+  border-radius: 4px;
+ 
+  height: 50px;
+  width: ;
+
+  margin-bottom: 16px;
+}
+.box2{
+  border:1px solid black;
+  border-radius: 4px;
+  margin-bottom: 16px;
+
+  height: 60px;
+  width: ;
+}
+.box3{
+  border:1px solid black;
+  border-radius: 4px;
+
+  height: 50px;
+  width: ;
+
+  margin-bottom: 16px;
+}
+.box4{
+  /* background-color: #62ceff; */
+  border:1px solid black;
+  border-radius: 4px;
+
+  height: calc(100% - 224px);
+  width: ;
+}
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
